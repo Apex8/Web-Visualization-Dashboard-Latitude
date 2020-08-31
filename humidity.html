@@ -4,11 +4,9 @@
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Bootstrap Visualization Dashboard</title>
+  <title>Humidity Visualization</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
-  <!-- Bootstrap & CSS link-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
     crossorigin="anonymous">
 
@@ -17,10 +15,9 @@
 </head>
 
 <body>
-  <!-- Nav -->
   <div class="navigation">
     <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand" style="background-color: #094414;" href="index.html">Latitude</a>
+      <a class="navbar-brand" style="background-color: rgb(175, 175, 175);" href="index.html">Latitude</a>
       <button class="navbar-toggler  border border-white" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -33,7 +30,7 @@
               Plots
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="Max_temp.html">Max Temperature</a>
+              <a class="dropdown-item" href="max_temperature.html">Max Temperature</a>
               <a class="dropdown-item active" href="humidity.html">Humidity</a>
               <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
               <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
@@ -45,22 +42,20 @@
           <li class="nav-item">
             <a class="nav-link" href="data.html">Data</a>
           </li>
-
         </ul>
       </div>
     </nav>
   </div>
-  <!-- Content  -->
   <div class="container">
     <div class="row">
       <div class="col-lg-7 col-md-12">
         <div class="box">
           <h3 class="title">Humidity</h3>
           <hr>
-          <img src="Resources/assets/images/Fig2.png" alt="Humidity Graph">
-          <p>There is not a strong correlation between Humidity and Latitude. The plots display a high variation of
-            humidity at different latitudes. Thus, we can conclude that there isn't a significant
-            correlation between humidity and latitude.</p>
+          <img src="Resources/assets/images/Fig2.png" alt="Humidity Plot">
+          <p>Humidity seems to be high across the board in every latitude, but remember that high humidity is a representation of how much evaporation is happening.
+              Giving us another metric to try to understand the mystery of latitude compared to the weather
+          </p>
         </div>
       </div>
       <div class="col-lg-5 col-md-12"></div>
