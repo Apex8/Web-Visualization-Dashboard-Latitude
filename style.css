@@ -80,7 +80,7 @@ img{
 }
 .vizualization{
     width:100% !important;
-    height:10% !important;
+    height:100% !important;
 }
 
 /* Title */
@@ -94,7 +94,7 @@ img{
 p{
  color: rgb(175, 175, 175);
  font-family: Georgia, 'Times New Roman', Times, serif;
- font-size: 16px; 
+ font-size: 18px; 
 }
 /* Box Class */
 .box {
@@ -111,15 +111,9 @@ p{
     border-top-color: white !important; 
 }
 /* Footer */
-footer{
-color: white; 
-min-height: 50px; 
+footer{ 
 font-family: Georgia, 'Times New Roman', Times, serif;
 font-size: 20px; 
-text-align: center; 
-position: fixed;
-left: 0;
-bottom: 0;
 width: 100%;
 padding-top: 15px; 
 }
