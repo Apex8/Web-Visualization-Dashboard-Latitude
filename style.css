@@ -30,21 +30,21 @@ body{
     background-color:rgb(250, 80, 13)!important; 
 }
 a{
-    color: #6D8092;
+    color: rgb(175, 175, 175);
     font-size: 20px; 
 }
 .nav-link:hover{
-    background-color:#E7E7E7 !important;
+    background-color: rgb(250, 80, 13)!important;
    }
 
 .navbar-brand:hover{
-color: rgb(175, 175, 175) !important;
+color: rgb(250, 13, 13) !important;
 }
 
 /* Media Queries */
-@media(max-width: 992px){
+@media(max-width: 800px){
     .navbar-expand-lg{
-    background-color: #094414 !important;
+    background-color: rgb(175, 175, 175) !important;
     }
     .navbar{
         max-height: none; 
@@ -52,18 +52,18 @@ color: rgb(175, 175, 175) !important;
     }
     .navbar div{
         margin: inherit; 
-        background-color: white;  
+        background-color: rgb(175, 175, 175);  
     }
     .navbar-brand{
-        padding: 10px !important; 
+        padding: 15px !important; 
     }
     
     button{
-        margin-right: 30px; 
+        margin-right: 25px; 
     }
     button:focus {
     
-        outline: 1px dotted;
+        outline: 2px dotted;
         outline: 5px auto -webkit-focusring-color;
         
         }
@@ -74,7 +74,7 @@ img{
     height:100% !important;
 }
 .active, .panel:hover{
-    border-color:#094414;
+    border-color:rgb(250, 13, 13);
     border-style: solid; 
     
 }
@@ -85,7 +85,7 @@ img{
 
 /* Title */
 .title{
-    color: #094414;  
+    color: rgb(250, 80, 13);  
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder; 
     padding-top: 25px; 
@@ -93,7 +93,7 @@ img{
 /* Paragraph */
 p{
  color: #6D8092;
- font-family: Arial, Helvetica, sans-serif;
+ font-family: Georgia, 'Times New Roman', Times, serif;
  font-size: 17px; 
 }
 /* Box Class */
