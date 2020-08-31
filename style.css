@@ -27,14 +27,14 @@ body{
     color: rgb(250, 13, 13)!important; 
 }
 .dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{
-    background-color:rgb(250, 80, 13)!important; 
+    background-color:rgb(250, 140, 13)!important; 
 }
 a{
     color: rgb(175, 175, 175);
     font-size: 20px; 
 }
 .nav-link:hover{
-    background-color: rgb(250, 80, 13)!important;
+    background-color: rgb(250, 140, 13)!important;
    }
 
 .navbar-brand:hover{
@@ -42,7 +42,7 @@ color: rgb(250, 13, 13) !important;
 }
 
 /* Media Queries */
-@media(max-width: 800px){
+@media(max-width: 900px){
     .navbar-expand-lg{
     background-color: rgb(175, 175, 175) !important;
     }
@@ -74,13 +74,13 @@ img{
     height:100% !important;
 }
 .active, .panel:hover{
-    border-color:rgb(250, 13, 13);
+    border-color:rgb(250, 140, 13);
     border-style: solid; 
     
 }
 .vizualization{
-    width:50% !important;
-    height:50% !important;
+    width:100% !important;
+    height:10% !important;
 }
 
 /* Title */
@@ -112,10 +112,6 @@ p{
 }
 /* Footer */
 footer{
-background-color: rgb(250, 140, 13); 
-border-top-style: solid; 
-border-top-width: 5px; 
-border-top-color: rgb(250, 13, 13);
 color: white; 
 min-height: 50px; 
 font-family: Georgia, 'Times New Roman', Times, serif;
