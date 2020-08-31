@@ -85,21 +85,21 @@ img{
 
 /* Title */
 .title{
-    color: rgb(250, 80, 13);  
+    color: rgb(175, 175, 175);  
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder; 
     padding-top: 25px; 
 }
 /* Paragraph */
 p{
- color: #6D8092;
+ color: rgb(175, 175, 175);
  font-family: Georgia, 'Times New Roman', Times, serif;
- font-size: 17px; 
+ font-size: 16px; 
 }
 /* Box Class */
 .box {
-    margin-top: 60px; 
-    margin-bottom: 62px; 
+    margin-top: 50px; 
+    margin-bottom: 50px; 
     padding: 10px 20px 15px; 
     color:black;
     background-color: white; 
@@ -112,14 +112,14 @@ p{
 }
 /* Footer */
 footer{
-background-color: #666666; 
+background-color: rgb(250, 140, 13); 
 border-top-style: solid; 
 border-top-width: 5px; 
-border-top-color: #094414;
+border-top-color: rgb(250, 13, 13);
 color: white; 
-min-height: 55px; 
-font-family: Arial, Helvetica, sans-serif;
-font-size: 15px; 
+min-height: 50px; 
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 20px; 
 text-align: center; 
 position: fixed;
 left: 0;
