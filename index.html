@@ -1,25 +1,19 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Bootstrap Visualization Dashboard</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- Bootstrap & CSS Links -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
     crossorigin="anonymous">
-
   <link rel="stylesheet" type="text/css" href="style.css">
-
 </head>
 
 <body>
-  <!-- Nav -->
   <div class="navigation">
     <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand" style="background-color: #094414;" href="index.html">Latitude</a>
+      <a class="navbar-brand" style="background-color: rgb(175, 175, 175);" href="index.html">Latitude</a>
       <button class="navbar-toggler  border border-white" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -49,18 +43,16 @@
       </div>
     </nav>
   </div>
-  <!-- Content Section -->
   <div class="container">
     <div class="row">
       <div class="col-lg-7 col-md-12">
-        <!-- Left box  -->
         <div class="box">
           <h3 class="title">Summary: Latitude vs. X</h3>
           <hr>
           <img src="Resources/assets/images/Fig1.png" class="vizualization rounded float-left" alt="Max Temperature Graph">
-          <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To
-            accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over
-            500 cities.</p>
+          <p> This project was compiled from the OpenWeatherMap API using current data to create the 4 visualizations, shown here. 
+            Starting with a city's latitude in reference to the equator, and comparing that data with other metrics to find any type of correlation.
+            This analysis was one on a dataset of over 500 cities randomly selected from the API.</p>
           <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude.
             Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the
             source data and visualizations created as part of the analysis, as well as explanations and descriptions of
@@ -68,14 +60,11 @@
         </div>
       </div>
       <div class="col-lg-5 col-md-12">
-        <!-- Right Box -->
         <div class="box">
           <h5 class="title">Visualizations</h5>
           <hr>
-
-
           <div class="container">
-            <div class="row" style="padding-bottom: 30px;">
+            <div class="row" style="padding-bottom: 25px;">
               <div class="col-6">
                 <a href="max_temperature.html">
                   <img class="panel" src="Resources/assets/images/Fig1.png" alt="Max Temperature Image">
@@ -87,7 +76,6 @@
                 </a>
               </div>
             </div>
-
             <div class="row" style="padding-bottom: 25px;">
               <div class="col-6">
                 <a href="cloudiness.html">
@@ -99,22 +87,17 @@
                   <img class="panel" src="Resources/assets/images/Fig4.png" alt="Wind Speed Graph">
                 </a>
               </div>
-
-
             </div>
           </div>
-
-
         </div>
       </div>
     </div>
   </div>
-  <!-- Footer -->
+
   <footer>
     <div class="footer"> John Falcone 2020</div>
   </footer>
 
-  <!-- Bootstrap JS Links -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
