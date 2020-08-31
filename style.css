@@ -24,7 +24,7 @@ body{
     background-color:rgb(250, 140, 13)!important; 
 }
 .dropdown-item{
-    color: rgb(250, 13, 13)!important; 
+    color: rgb(250, 250, 13)!important; 
 }
 .dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{
     background-color:rgb(250, 140, 13)!important; 
@@ -38,7 +38,7 @@ a{
    }
 
 .navbar-brand:hover{
-color: rgb(250, 13, 13) !important;
+color: rgb(250, 140, 13) !important;
 }
 
 /* Media Queries */
